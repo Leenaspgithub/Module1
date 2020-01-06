@@ -9,15 +9,17 @@
   <body>
     <div ng-controller='LunchCheckController'>
 
-Message is <br>
-{{sayMessage}}
-<input type="text" ng-model="name">
 <div>
-<button ng-click="makeHappy()"> Make Happy </button>
-<br>
-<img src="images/im_{{stateOfBeing}}.jpg"
+<input type="text" ng-model="name">
 </div>
+<div>
+<button ng-click="makeHappy()"> Make Me Happy </button>
+<br>
+<img ng-src="images/im_{{stateOfBeing}}.jpg"
+</div>
+<div>
+Message is : {{name}} {{(sayMessage())}}
     </div>
-
+</div>
   </body>
 </html>

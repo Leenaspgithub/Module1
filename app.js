@@ -9,7 +9,7 @@ function LunchCheckController($scope){
   $scope.name="Leena";
   $scope.stateOfBeing="sad";
   $scope.sayMessage=function(){
-    return "I like the AngularJS!";
+    return " likes the AngularJS, I am Happy!";
   };
   $scope.makeHappy=function(){
     $scope.stateOfBeing="happy";
