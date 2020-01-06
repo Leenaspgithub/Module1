@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html  ng-app='MsgApp'>
+<html  ng-app='LunchCheck'>
   <head>
     <meta charset="utf-8">
     <script src="angular.min.js"></script>
@@ -7,10 +7,17 @@
     <title>Module1</title>
   </head>
   <body>
-    <div ng-controller='MsgController'>
+    <div ng-controller='LunchCheckController'>
 
-<h1> hi {{name}}</h1>
-
+Message is <br>
+{{sayMessage}}
+<input type="text" ng-model="name">
+<div>
+<button ng-click="makeHappy()"> Make Happy </button>
+<br>
+<img src="images/im_{{stateOfBeing}}.jpg"
+</div>
     </div>
+
   </body>
 </html>
