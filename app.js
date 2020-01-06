@@ -1,5 +1,4 @@
 (function(){
-
   'use strict';
   angular.module('LunchCheck',[])
   .controller('LunchCheckController',LunchCheckController);
@@ -18,3 +17,5 @@ function LunchCheckController($scope){
 
 }
 )();
+
+//!function(){"use strict";function e(e){e.name="Leena",e.stateOfBeing="sad",e.sayMessage=function(){return" likes the AngularJS, I am Happy!"},e.makeHappy=function(){e.stateOfBeing="happy"}}angular.module("LunchCheck",[]).controller("LunchCheckController",e),e.$inject=["$scope"]}();
