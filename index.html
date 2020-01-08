@@ -10,16 +10,15 @@
     <div ng-controller='LunchCheckController'>
 
 <div>
+  <br>
 <input type="text" ng-model="name">
 </div>
 <div>
-<button ng-click="makeHappy()"> Make Me Happy </button>
+<button ng-click="checkIfToomuch()"> Check If Too Much </button>
 <br>
-<img ng-src="images/im_{{stateOfBeing}}.jpg"
+{{defaultmessage}}
 </div>
-<div>
-Message is : {{name}} {{(sayMessage())}}
-    </div>
-</div>
+
+</div
   </body>
 </html>
